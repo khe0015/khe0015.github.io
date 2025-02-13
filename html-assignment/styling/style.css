@@ -1,0 +1,33 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    background-color: rgb(255, 176, 251);
+}
+header, footer{
+    background-color: rgb(45, 0, 38);
+}
+.site-title {
+    color: rgb(215, 23, 113);
+}
+#my-image {
+    box-shadow: 0px 0px 2px 1px black;
+}
+ul {
+    list-style: square;
+}
+ul :nth-child(odd) {
+    background-color: blueviolet;
+}
+a{
+    text-decoration: none;
+    background-color: bisque;
+    color: black;
+    border: 3px solid salmon;
+}
+a:hover {
+    background-color: black;
+    color: bisque;
+}
+footer {
+    color: rgb(215, 23, 113);
+}
