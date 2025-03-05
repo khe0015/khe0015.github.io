@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #A7C3B5;
+    margin: 0;
+    padding: 0;
+}
+
+/* En-tête */
+header {
+    text-align: center;
+    padding: 20px;
+}
+.menu {
+    display: flex;
+    justify-content: center; /* Centre le menu */
+    align-items: center; /* Centre verticalement */
+    gap: 120px; /* Ajuste l'espace entre HOME | STORY | CONTACT */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+    color: darkblue; /* Effet au survol */
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    top: 32%;
+    left: 49%;
+    transform: translateX(-50%);
+    font-size: 72px;
+    color: white;
+}
+
+/* Menu de navigation */
+nav {
+    text-align: center;
+    background-color: white;
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+/* Section principale */
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+}
+
+/* Image article */
+.profile {
+    float: left;
+    margin-left: 20px;
+    width: 150px;
+}
+
+/* Formulaire */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.contact-section {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    border: 3px solid black; /* Ajoute le trait autour */
+    background-color: #E6F2EE; /* Même couleur que sur la photo */
+    border-radius: 5px; /* Légèrement arrondi */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); /* Effet léger */
+}
+
+.contact-section h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #A7C3B5;
+    border: 2px solid black;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+p {
+    font-weight: bold;
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: darkgray;
+}
+.facts{
+    padding-top: 50px;
+}
+h2{
+    margin-left: 25px;
+}
+.para{
+    margin-left: 180px;
+    font-weight: 100;
+}
+.radio-buttons label {
+    vertical-align: baseline;
+    margin-right: 15px;
+}
+footer{
+    text-align: right;
+}
