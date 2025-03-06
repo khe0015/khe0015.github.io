@@ -67,9 +67,10 @@ nav a {
 
 /* Image article */
 .profile {
+    margin-right: 20px;
     float: left;
     margin-left: 20px;
-    width: 150px;
+    width: 250px;
 }
 
 /* Formulaire */
@@ -144,9 +145,14 @@ button:hover {
 }
 h2{
     margin-left: 25px;
+    font-size: 24px;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-weight: 600;
 }
 .para{
-    margin-left: 180px;
+    margin-left: 25px;
     font-weight: 100;
 }
 .radio-buttons label {
@@ -156,3 +162,9 @@ h2{
 footer{
     text-align: right;
 }
+section ul {
+    list-style: disc;
+font-size: 24px;
+}
+
+  
