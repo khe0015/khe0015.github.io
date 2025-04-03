@@ -1,0 +1,161 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background: black;
+    color: white;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav input {
+    padding: 5px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero.jpg') center/cover no-repeat;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.hero button {
+    background: gold;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* About */
+.about {
+    display: flex;
+    padding: 50px;
+}
+
+.about img {
+    width: 50%;
+    margin-right: 20px;
+}
+
+/* Services */
+.services {
+    text-align: center;
+    padding: 50px;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.service {
+    background: #f8f8f8;
+    padding: 20px;
+}
+
+.service img {
+    width: 100%;
+}
+
+.service button {
+    background: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Team */
+.team {
+    text-align: center;
+    padding: 50px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.member {
+    background: #ffda79;
+    padding: 20px;
+}
+
+/* Contact */
+.contact {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+.contact button {
+    background: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.location iframe {
+    width: 300px;
+    height: 200px;
+}
+
+/* Footer */
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
